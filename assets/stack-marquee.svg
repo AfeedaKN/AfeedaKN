@@ -24,104 +24,116 @@
         <circle cx="16" cy="15" r="4" fill="#2dd4bf"/>
         <text x="27" y="19" fill="#e6edf3">React</text>
       </g>
-      <!-- Redux Toolkit -->
+      <!-- TypeScript -->
       <g transform="translate(94, 14)">
-        <rect width="136" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
-        <circle cx="16" cy="15" r="4" fill="#a78bfa"/>
-        <text x="27" y="19" fill="#e6edf3">Redux Toolkit</text>
-      </g>
-      <!-- React Router -->
-      <g transform="translate(242, 14)">
-        <rect width="130" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
-        <circle cx="16" cy="15" r="4" fill="#f87171"/>
-        <text x="27" y="19" fill="#e6edf3">React Router</text>
-      </g>
-      <!-- Vite -->
-      <g transform="translate(384, 14)">
-        <rect width="76" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
-        <circle cx="16" cy="15" r="4" fill="#fbbf24"/>
-        <text x="27" y="19" fill="#e6edf3">Vite</text>
+        <rect width="114" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#38bdf8"/>
+        <text x="27" y="19" fill="#e6edf3">TypeScript</text>
       </g>
       <!-- Node.js -->
-      <g transform="translate(472, 14)">
+      <g transform="translate(220, 14)">
         <rect width="96" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#34d399"/>
         <text x="27" y="19" fill="#e6edf3">Node.js</text>
       </g>
+      <!-- PostgreSQL -->
+      <g transform="translate(328, 14)">
+        <rect width="118" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#38bdf8"/>
+        <text x="27" y="19" fill="#e6edf3">PostgreSQL</text>
+      </g>
       <!-- Express -->
-      <g transform="translate(580, 14)">
+      <g transform="translate(458, 14)">
         <rect width="98" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#38bdf8"/>
         <text x="27" y="19" fill="#e6edf3">Express</text>
       </g>
       <!-- MongoDB -->
-      <g transform="translate(690, 14)">
+      <g transform="translate(568, 14)">
         <rect width="104" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#2dd4bf"/>
         <text x="27" y="19" fill="#e6edf3">MongoDB</text>
       </g>
+      <!-- Redux Toolkit -->
+      <g transform="translate(684, 14)">
+        <rect width="136" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#a78bfa"/>
+        <text x="27" y="19" fill="#e6edf3">Redux Toolkit</text>
+      </g>
+      <!-- React Router -->
+      <g transform="translate(832, 14)">
+        <rect width="130" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#f87171"/>
+        <text x="27" y="19" fill="#e6edf3">React Router</text>
+      </g>
+      <!-- Vite -->
+      <g transform="translate(974, 14)">
+        <rect width="76" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#fbbf24"/>
+        <text x="27" y="19" fill="#e6edf3">Vite</text>
+      </g>
       <!-- Mongoose -->
-      <g transform="translate(806, 14)">
+      <g transform="translate(1062, 14)">
         <rect width="106" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#f472b6"/>
         <text x="27" y="19" fill="#e6edf3">Mongoose</text>
       </g>
       <!-- JWT -->
-      <g transform="translate(924, 14)">
+      <g transform="translate(1180, 14)">
         <rect width="72" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#fbbf24"/>
         <text x="27" y="19" fill="#e6edf3">JWT</text>
       </g>
       <!-- bcrypt -->
-      <g transform="translate(1008, 14)">
+      <g transform="translate(1264, 14)">
         <rect width="90" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#a78bfa"/>
         <text x="27" y="19" fill="#e6edf3">bcrypt</text>
       </g>
       <!-- Passport.js -->
-      <g transform="translate(1110, 14)">
+      <g transform="translate(1366, 14)">
         <rect width="126" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#38bdf8"/>
         <text x="27" y="19" fill="#e6edf3">Passport.js</text>
       </g>
       <!-- Firebase Auth -->
-      <g transform="translate(1248, 14)">
+      <g transform="translate(1504, 14)">
         <rect width="138" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#fbbf24"/>
         <text x="27" y="19" fill="#e6edf3">Firebase Auth</text>
       </g>
       <!-- Multer -->
-      <g transform="translate(1398, 14)">
+      <g transform="translate(1654, 14)">
         <rect width="90" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#2dd4bf"/>
         <text x="27" y="19" fill="#e6edf3">Multer</text>
       </g>
       <!-- Cloudinary -->
-      <g transform="translate(1500, 14)">
+      <g transform="translate(1756, 14)">
         <rect width="120" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#38bdf8"/>
         <text x="27" y="19" fill="#e6edf3">Cloudinary</text>
       </g>
       <!-- Razorpay -->
-      <g transform="translate(1632, 14)">
+      <g transform="translate(1888, 14)">
         <rect width="108" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#34d399"/>
         <text x="27" y="19" fill="#e6edf3">Razorpay</text>
       </g>
       <!-- Nodemailer -->
-      <g transform="translate(1752, 14)">
+      <g transform="translate(2008, 14)">
         <rect width="120" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#a78bfa"/>
         <text x="27" y="19" fill="#e6edf3">Nodemailer</text>
       </g>
       <!-- EJS -->
-      <g transform="translate(1884, 14)">
+      <g transform="translate(2140, 14)">
         <rect width="72" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#f87171"/>
         <text x="27" y="19" fill="#e6edf3">EJS</text>
       </g>
       <!-- Git -->
-      <g transform="translate(1968, 14)">
+      <g transform="translate(2224, 14)">
         <rect width="68" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
         <circle cx="16" cy="15" r="4" fill="#f87171"/>
         <text x="27" y="19" fill="#e6edf3">Git</text>
@@ -136,8 +148,8 @@
   <g mask="url(#marqueeMask)">
     <g>
       <use href="#chip-set" x="0" y="0"/>
-      <use href="#chip-set" x="2048" y="0"/>
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-2048 0" dur="28s" repeatCount="indefinite"/>
+      <use href="#chip-set" x="2304" y="0"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-2304 0" dur="30s" repeatCount="indefinite"/>
     </g>
   </g>
 </svg>

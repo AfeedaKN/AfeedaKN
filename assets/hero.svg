@@ -30,13 +30,13 @@
   <circle cx="68" cy="22" r="5.5" fill="#34d399"/>
   <text x="92" y="27" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" fill="#64748b" letter-spacing="0.5">terminal ~ afeeda@github</text>
 
-  <!-- Pulsing Learning in Public Status Dot -->
+  <!-- Pulsing Status Dot -->
   <circle cx="726" cy="22" r="4" fill="#2dd4bf" opacity="0.4">
     <animate attributeName="r" values="4;9;4" dur="2.4s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.4;0;0.4" dur="2.4s" repeatCount="indefinite"/>
   </circle>
   <circle cx="726" cy="22" r="4.5" fill="#2dd4bf"/>
-  <text x="742" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" font-weight="600" fill="#2dd4bf" letter-spacing="0.3">learning in public</text>
+  <text x="742" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" font-weight="600" fill="#2dd4bf" letter-spacing="0.3">building in public</text>
 
   <!-- Drifting Ambient Dots -->
   <circle cx="160" cy="100" r="1.5" fill="#38bdf8">
@@ -75,20 +75,20 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.38;0.62;0.66;1" dur="9s" repeatCount="indefinite"/>
   </text>
 
-  <text x="72" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="18" font-weight="500" fill="#e6edf3" textLength="365" lengthAdjust="spacingAndGlyphs" opacity="0">
-   TypeScript &amp; PostgreSQL
+  <text x="72" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="18" font-weight="500" fill="#e6edf3" textLength="350" lengthAdjust="spacingAndGlyphs" opacity="0">
+    TypeScript, Node.js &amp; PostgreSQL
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.71;0.95;1" dur="9s" repeatCount="indefinite"/>
   </text>
 
   <!-- Blinking Caret Following Active Line -->
   <rect y="171" width="9" height="20" rx="1.5" fill="#2dd4bf">
-    <animate attributeName="x" values="390;390;430;430;445;445;390" keyTimes="0;0.33;0.3301;0.66;0.6601;0.9999;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="390;390;430;430;430;430;390" keyTimes="0;0.33;0.3301;0.66;0.6601;0.9999;1" dur="9s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0;1" dur="0.75s" repeatCount="indefinite"/>
   </rect>
 
   <!-- Terminal Footer Information -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="13" fill="#64748b">
-    <text x="48" y="240">STACK: <tspan fill="#94a3b8">Node.js · Express · MongoDB · React</tspan></text>
+    <text x="48" y="240">STACK: <tspan fill="#94a3b8">React · Node.js · TypeScript · PostgreSQL · MongoDB</tspan></text>
     <text x="640" y="240">LOC: <tspan fill="#94a3b8">Ernakulam, Kerala, IN</tspan></text>
   </g>
 
