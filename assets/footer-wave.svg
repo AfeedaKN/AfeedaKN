@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" width="900" height="90">
+  <defs>
+    <linearGradient id="fwBgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="waveTeal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="waveViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="waveAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.35"/>
+    </linearGradient>
+    <clipPath id="panelClip">
+      <rect width="900" height="90" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <!-- Panel Background with clipping for rounded borders -->
+  <g clip-path="url(#panelClip)">
+    <rect width="900" height="90" fill="url(#fwBgGrad)"/>
+
+    <!-- Layer 1: Back Wave (Teal - Slow: 12s) -->
+    <path d="M 0 45 Q 112.5 28 225 45 T 450 45 T 675 45 T 900 45 T 1125 45 T 1350 45 T 1575 45 T 1800 45 L 1800 90 L 0 90 Z" fill="url(#waveTeal)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-450 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Layer 2: Middle Wave (Violet - Medium: 8s) -->
+    <path d="M 0 52 Q 112.5 36 225 52 T 450 52 T 675 52 T 900 52 T 1125 52 T 1350 52 T 1575 52 T 1800 52 L 1800 90 L 0 90 Z" fill="url(#waveViolet)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-450 0" dur="8s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Layer 3: Front Wave (Amber/Teal - Fast: 5.5s) -->
+    <path d="M 0 60 Q 112.5 46 225 60 T 450 60 T 675 60 T 900 60 T 1125 60 T 1350 60 T 1575 60 T 1800 60 L 1800 90 L 0 90 Z" fill="url(#waveAmber)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-450 0" dur="5.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Border stroke -->
+    <rect width="900" height="90" rx="10" fill="none" stroke="#2a3447" stroke-width="1.5"/>
+  </g>
+</svg>

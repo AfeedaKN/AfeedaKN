@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 58" width="900" height="58">
+  <defs>
+    <linearGradient id="mqPanelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+
+    <!-- Edge Fade Mask -->
+    <linearGradient id="edgeFadeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="6%" stop-color="#ffffff"/>
+      <stop offset="94%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <mask id="marqueeMask">
+      <rect x="0" y="0" width="900" height="58" fill="url(#edgeFadeGrad)"/>
+    </mask>
+
+    <!-- Reusable Chip Definition -->
+    <g id="chip-set" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="12" font-weight="500">
+      <!-- React -->
+      <g transform="translate(0, 14)">
+        <rect width="82" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#2dd4bf"/>
+        <text x="27" y="19" fill="#e6edf3">React</text>
+      </g>
+      <!-- Redux Toolkit -->
+      <g transform="translate(94, 14)">
+        <rect width="136" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#a78bfa"/>
+        <text x="27" y="19" fill="#e6edf3">Redux Toolkit</text>
+      </g>
+      <!-- React Router -->
+      <g transform="translate(242, 14)">
+        <rect width="130" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#f87171"/>
+        <text x="27" y="19" fill="#e6edf3">React Router</text>
+      </g>
+      <!-- Vite -->
+      <g transform="translate(384, 14)">
+        <rect width="76" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#fbbf24"/>
+        <text x="27" y="19" fill="#e6edf3">Vite</text>
+      </g>
+      <!-- Node.js -->
+      <g transform="translate(472, 14)">
+        <rect width="96" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#34d399"/>
+        <text x="27" y="19" fill="#e6edf3">Node.js</text>
+      </g>
+      <!-- Express -->
+      <g transform="translate(580, 14)">
+        <rect width="98" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#38bdf8"/>
+        <text x="27" y="19" fill="#e6edf3">Express</text>
+      </g>
+      <!-- MongoDB -->
+      <g transform="translate(690, 14)">
+        <rect width="104" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#2dd4bf"/>
+        <text x="27" y="19" fill="#e6edf3">MongoDB</text>
+      </g>
+      <!-- Mongoose -->
+      <g transform="translate(806, 14)">
+        <rect width="106" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#f472b6"/>
+        <text x="27" y="19" fill="#e6edf3">Mongoose</text>
+      </g>
+      <!-- JWT -->
+      <g transform="translate(924, 14)">
+        <rect width="72" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#fbbf24"/>
+        <text x="27" y="19" fill="#e6edf3">JWT</text>
+      </g>
+      <!-- bcrypt -->
+      <g transform="translate(1008, 14)">
+        <rect width="90" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#a78bfa"/>
+        <text x="27" y="19" fill="#e6edf3">bcrypt</text>
+      </g>
+      <!-- Passport.js -->
+      <g transform="translate(1110, 14)">
+        <rect width="126" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#38bdf8"/>
+        <text x="27" y="19" fill="#e6edf3">Passport.js</text>
+      </g>
+      <!-- Firebase Auth -->
+      <g transform="translate(1248, 14)">
+        <rect width="138" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#fbbf24"/>
+        <text x="27" y="19" fill="#e6edf3">Firebase Auth</text>
+      </g>
+      <!-- Multer -->
+      <g transform="translate(1398, 14)">
+        <rect width="90" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#2dd4bf"/>
+        <text x="27" y="19" fill="#e6edf3">Multer</text>
+      </g>
+      <!-- Cloudinary -->
+      <g transform="translate(1500, 14)">
+        <rect width="120" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#38bdf8"/>
+        <text x="27" y="19" fill="#e6edf3">Cloudinary</text>
+      </g>
+      <!-- Razorpay -->
+      <g transform="translate(1632, 14)">
+        <rect width="108" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#34d399"/>
+        <text x="27" y="19" fill="#e6edf3">Razorpay</text>
+      </g>
+      <!-- Nodemailer -->
+      <g transform="translate(1752, 14)">
+        <rect width="120" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#a78bfa"/>
+        <text x="27" y="19" fill="#e6edf3">Nodemailer</text>
+      </g>
+      <!-- EJS -->
+      <g transform="translate(1884, 14)">
+        <rect width="72" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#f87171"/>
+        <text x="27" y="19" fill="#e6edf3">EJS</text>
+      </g>
+      <!-- Git -->
+      <g transform="translate(1968, 14)">
+        <rect width="68" height="30" rx="15" fill="#131d31" stroke="#2a3447" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#f87171"/>
+        <text x="27" y="19" fill="#e6edf3">Git</text>
+      </g>
+    </g>
+  </defs>
+
+  <!-- Panel Background -->
+  <rect width="900" height="58" rx="8" fill="url(#mqPanelGrad)" stroke="#2a3447" stroke-width="1"/>
+
+  <!-- Scrolling Group with Mask -->
+  <g mask="url(#marqueeMask)">
+    <g>
+      <use href="#chip-set" x="0" y="0"/>
+      <use href="#chip-set" x="2048" y="0"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-2048 0" dur="28s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
