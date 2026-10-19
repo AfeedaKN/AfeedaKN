@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AfeedaKN/AfeedaKN/main/assets/hero.svg" alt="Afeeda KN, full-stack developer. MERN, REST APIs, authentication, data modelling." width="100%">
+<img src="https://raw.githubusercontent.com/AfeedaKN/AfeedaKN/main/assets/hero.svg" alt="Afeeda KN, full-stack developer. React, Node.js, TypeScript, PostgreSQL, MongoDB." width="100%">
 
 <br>
 
@@ -13,9 +13,9 @@
 <a id="about"></a>
 ## 👋 About
 
-I'm a developing full-stack engineer based in Ernakulam, Kerala, India, working mainly with **React, Node.js, Express and MongoDB**. My projects are learning-driven but built end to end, from login flows and role-based access to payments and admin tooling.
+I'm a full-stack engineer based in Ernakulam, Kerala, India, building modern web applications with **TypeScript, JavaScript, React, Node.js, Express, PostgreSQL, and MongoDB**. My projects are built end to end, from login flows and role-based access control to payment integrations and admin tooling.
 
-I enjoy the backend half of an application the most: designing the data model, protecting routes, and handling the edge cases that make an app feel real, like stock checks, refunds and expired coupons.
+I enjoy the backend half of an application the most: architecting reliable data models in PostgreSQL and MongoDB, securing routes, and handling the real-world edge cases that make an app robust—like stock validation, wallet refunds, and coupon redemption rules.
 
 ---
 
@@ -74,14 +74,15 @@ Every backend I write follows the same path. A request is validated, authorised,
 ## 🧰 Tech stack
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AfeedaKN/AfeedaKN/main/assets/stack-marquee.svg" alt="Technologies used in my projects: React, Redux Toolkit, Node.js, Express, MongoDB, JWT, Passport.js, Razorpay, Cloudinary and more." width="100%">
+  <img src="https://raw.githubusercontent.com/AfeedaKN/AfeedaKN/main/assets/stack-marquee.svg" alt="Technologies used in my projects: React, TypeScript, Node.js, PostgreSQL, Express, MongoDB, Redux Toolkit, and more." width="100%">
 </div>
 
 | Area | Used in my projects |
 | :--- | :--- |
-| **Frontend** | React, Redux Toolkit, React Router, Vite, EJS, Bootstrap, HTML5, CSS3, JavaScript (ES6+) |
+| **Languages** | TypeScript, JavaScript (ES6+), SQL, HTML5, CSS3 |
+| **Frontend** | React, Redux Toolkit, React Router, Vite, EJS, Bootstrap |
 | **Backend** | Node.js, Express (Express 5 & Express 4), REST APIs, middleware, MVC structure |
-| **Database** | MongoDB, Mongoose |
+| **Databases** | PostgreSQL, MongoDB, Mongoose |
 | **Auth and security** | JWT (JSON Web Tokens), bcrypt, express-session, Passport.js (Google OAuth), Firebase Auth, role-based access |
 | **Integrations** | Razorpay, Cloudinary, Multer, Sharp, Nodemailer, PDFKit, ExcelJS |
 | **Tooling** | Git, GitHub, npm, Postman, ESLint |
@@ -91,11 +92,11 @@ Every backend I write follows the same path. A request is validated, authorised,
 <a id="current-focus"></a>
 ## 🎯 Current focus
 
-- Moving my backend work from JavaScript to **TypeScript**
-- Stronger **REST API design** and request validation
-- **Database modelling**, including relational design with PostgreSQL
+- **System design & scalable backend architecture** (microservices, modular layers, event-driven patterns)
+- **Performance optimization & caching** (database query tuning, indexing strategies, Redis)
+- **Advanced RESTful API design** (strict schema validation, contract testing, robust error handling)
 - **Data structures and algorithms** practice
-- More modular code and clearer project documentation
+- **Automated testing & CI/CD** (unit and integration testing, clean maintainable documentation)
 
 ---
 
