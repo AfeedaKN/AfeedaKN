@@ -1,73 +1,46 @@
-<div align="center">
-
-# Afeeda KN
-
-**Full-stack developer · MERN stack · Ernakulam, Kerala**
-
-I build web applications and care most about the systems behind the interface:
-authentication, data models and clean backend structure.
-
-[Projects](#featured-projects) · [Stack](#tech-stack) · [Current focus](#current-focus)
-
-</div>
-
-## About
-
-I'm a developing full-stack engineer working mainly with React, Node.js, Express and MongoDB. My projects are learning-driven but built end to end, from login flows and role-based access to payments and admin tooling.
-
-I enjoy the backend half of an application the most: designing the data model, protecting routes, handling edge cases like stock, refunds and expired coupons, and keeping code organised into controllers, models and middleware.
-
-## Featured projects
-
-### [FitVibe](https://github.com/AfeedaKN/FitVibe-Ecom): full-stack e-commerce platform
-
-A men's shirt store with a complete shopping flow for customers and a separate admin panel.
-
-**Stack:** Node.js · Express 5 · MongoDB/Mongoose · EJS · Passport.js · Razorpay · Cloudinary
-
-- **Layered authentication:** email sign-up with OTP verification, Google OAuth, bcrypt password hashing and session-based access control.
-- **Full order lifecycle:** cart and stock validation, three payment paths (Razorpay, wallet, Cash on Delivery), cancellations, return requests and refunds credited to a wallet.
-- **Business logic beyond CRUD:** coupons with expiry, usage limits and per-user validation, plus an admin dashboard with periodic sales reports and top-selling products.
-- Organised in an MVC-style structure: `controllers`, `models`, `routes`, `middlewares`, `utils`, `views`.
-
-### [User Management System](https://github.com/AfeedaKN/user-management): MERN auth and admin app
-
-A full-stack app where users manage their own profile and admins manage all users. *Learning project.*
-
-**Stack:** React · Redux Toolkit · React Router · Node.js · Express · MongoDB · JWT · Multer · Cloudinary
-
-- **JWT authentication** with protected routes, and admin routes that additionally check the user's role.
-- **Image upload pipeline:** React → Express → Multer → Cloudinary → image URL stored in MongoDB.
-- Admin tooling to search, create, edit and delete users, with global state managed in Redux Toolkit.
-
-### [Netflix-inspired streaming UI](https://github.com/AfeedaKN/netflix): React frontend
-
-A responsive streaming-style interface with sign-up and login. *Learning project.*
-
-**Stack:** React 19 · Vite · React Router 7 · Firebase Authentication · ESLint
-
-- Firebase Authentication flow from sign-up and login to the authenticated home page.
-- Component-based UI built with hooks, reusable components and client-side routing.
-
-## Tech stack
-
-| Area | Used in my projects |
-| --- | --- |
-| **Frontend** | React, Redux Toolkit, React Router, Vite, EJS, Bootstrap, HTML, CSS, JavaScript |
-| **Backend** | Node.js, Express, REST APIs, middleware, MVC structure |
-| **Database** | MongoDB, Mongoose |
-| **Auth and security** | JWT, bcrypt, sessions, Passport.js (Google OAuth), Firebase Auth, role-based access |
-| **Integrations** | Razorpay, Cloudinary, Multer, Nodemailer |
-| **Tooling** | Git, GitHub, npm, ESLint |
-
-## Current focus
-
-- Moving my backend work from JavaScript to **TypeScript**
-- Stronger **REST API design** and validation
-- **Database modelling**, including relational design with PostgreSQL
-- **Data structures and algorithms** practice
-- Writing more modular, maintainable code and clearer project documentation
-
-## Get in touch
-
-My work lives in the repositories above. Feedback on my code is welcome: feel free to open an issue on any project.
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Afeeda KN, full-stack developer. Animated terminal showing rotating focus areas." xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpiOTFkOTBiNi0wYmY2LTRjZTAtYTkzNS0zNTMyNjQxZTIxMDQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMpakXtoyw/FQufqWCeveNIAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiODY0MTY4MS05MTQ0LTQxZGMtOTQxMS03MTA3YzU0MmFlNzdscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoE/1Y9XNXHckGBAd47cIldAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg1LImIgWKfOgfY5lpBtc1TQJBAnso2mWiwyva0HyW7QikZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaAfr6gfwEwmKXimeiGryW4kAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDW2q33owqVBNNNdsPouC7FJKXsAcFQuwnoQXRgacmG0mRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBj/Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmI5MWQ5MGI2LTBiZjYtNGNlMC1hOTM1LTM1MzI2NDFlMjEwNC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjViNzA4MzMzLTQ1YmUtNDU2Ni05ZjJhLWZjY2YyMDJhZDI0YXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDUsiYiBYp86B9jmWkG1zVNAkECeyjaZaLDK9rQfJbtCKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg+6gstfVjAXnmUD505m7KeNOAmG1+SG5p1Yb6ZVsYnkGiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggUSRob9a0KOfw+bu2XDswHX8wCc1Nj0fwJ6jC6QoNoS10Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQNCucGTutI96IZkJ9YERArRF++DS/atlP5gIXA2jM7zdwN8uAJ5FVEWMK5u0KSJg7zPDyoCX91lcss6fpLku5tk=</c2pa:manifest></metadata>
+<title>Afeeda KN: Full-stack developer</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#121a2b"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf" stop-opacity="0"/><stop offset=".5" stop-color="#2dd4bf" stop-opacity=".9"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+<clipPath id="card"><rect x="1" y="1" width="898" height="278" rx="16"/></clipPath>
+</defs>
+<rect x=".5" y=".5" width="899" height="279" rx="16" fill="url(#bg)" stroke="#2a3447"/>
+<g clip-path="url(#card)">
+<rect width="900" height="280" fill="url(#grid)"/>
+<rect y="277" width="260" height="3" fill="url(#sweep)"><animate attributeName="x" values="-260;900" dur="4.5s" repeatCount="indefinite"/></rect>
+<circle cx="640" cy="70" r="3" fill="#2dd4bf" opacity="0.5"><animate attributeName="cy" values="70;56;70" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.6;0.15" dur="5s" repeatCount="indefinite"/></circle><circle cx="720" cy="120" r="2.5" fill="#fbbf24" opacity="0.5"><animate attributeName="cy" values="120;106;120" dur="6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.6;0.15" dur="6.5s" repeatCount="indefinite"/></circle><circle cx="790" cy="60" r="2" fill="#a78bfa" opacity="0.5"><animate attributeName="cy" values="60;46;60" dur="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.6;0.15" dur="4.5s" repeatCount="indefinite"/></circle><circle cx="830" cy="150" r="3" fill="#2dd4bf" opacity="0.5"><animate attributeName="cy" values="150;136;150" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.6;0.15" dur="7s" repeatCount="indefinite"/></circle><circle cx="700" cy="200" r="2" fill="#a78bfa" opacity="0.5"><animate attributeName="cy" values="200;186;200" dur="5.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.6;0.15" dur="5.5s" repeatCount="indefinite"/></circle><circle cx="765" cy="225" r="2.5" fill="#fbbf24" opacity="0.5"><animate attributeName="cy" values="225;211;225" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.6;0.15" dur="6s" repeatCount="indefinite"/></circle><circle cx="590" cy="150" r="2" fill="#2dd4bf" opacity="0.5"><animate attributeName="cy" values="150;136;150" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.15;0.6;0.15" dur="8s" repeatCount="indefinite"/></circle>
+</g>
+<circle cx="28" cy="26" r="6" fill="#ff5f57"/><circle cx="48" cy="26" r="6" fill="#febc2e"/><circle cx="68" cy="26" r="6" fill="#28c840"/>
+<text x="92" y="31" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#6b7a90">afeeda@fullstack: ~/portfolio</text>
+<g>
+<animate attributeName="opacity" values="0;1" dur="0.9s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" values="0 14;0 0" dur="0.9s" fill="freeze"/>
+<text x="94" y="118" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="62" font-weight="800" fill="url(#acc)" letter-spacing="-1">Afeeda KN</text>
+<text x="96" y="146" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8b9bb4">MERN · REST APIs · authentication · data modelling</text>
+</g>
+<text x="64" y="190" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="22" fill="#fbbf24">$</text>
+<clipPath id="c0"><rect x="96" y="164" height="38" width="0">
+<animate attributeName="width" values="0;0;356.4;356.4;0;0" keyTimes="0;0.005;0.1;0.2733;0.32;1" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+<text x="96" y="190" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="22" fill="#e6edf3" textLength="356.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#c0)">Full-stack developer · MERN</text><clipPath id="c1"><rect x="96" y="164" height="38" width="0">
+<animate attributeName="width" values="0;0;448.8;448.8;0;0" keyTimes="0;0.3383;0.4333;0.6067;0.6533;1" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+<text x="96" y="190" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="22" fill="#e6edf3" textLength="448.8" lengthAdjust="spacingAndGlyphs" clip-path="url(#c1)">Auth flows, APIs &amp; data models</text><clipPath id="c2"><rect x="96" y="164" height="38" width="0">
+<animate attributeName="width" values="0;0;475.2;475.2;0;0" keyTimes="0;0.6717;0.7667;0.94;0.9867;1" dur="15s" repeatCount="indefinite"/></rect></clipPath>
+<text x="96" y="190" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="22" fill="#e6edf3" textLength="475.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#c2)">Learning TypeScript &amp; PostgreSQL</text>
+<g opacity="0"><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.0001;0.3331;0.3332;1" dur="15s" repeatCount="indefinite"/>
+<rect y="168" width="10" height="26" fill="#2dd4bf" rx="1" x="96">
+<animate attributeName="x" values="104;104;460.4;460.4;104;104" keyTimes="0;0.005;0.1;0.2733;0.32;1" dur="15s" repeatCount="indefinite"/>
+<animate attributeName="fill-opacity" values="1;0.15;1" dur="1s" repeatCount="indefinite"/></rect></g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3334;0.3335;0.6665;0.6666;1" dur="15s" repeatCount="indefinite"/>
+<rect y="168" width="10" height="26" fill="#2dd4bf" rx="1" x="96">
+<animate attributeName="x" values="104;104;552.8;552.8;104;104" keyTimes="0;0.3383;0.4333;0.6067;0.6533;1" dur="15s" repeatCount="indefinite"/>
+<animate attributeName="fill-opacity" values="1;0.15;1" dur="1s" repeatCount="indefinite"/></rect></g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6668;0.6669;0.9998;0.9999;1" dur="15s" repeatCount="indefinite"/>
+<rect y="168" width="10" height="26" fill="#2dd4bf" rx="1" x="96">
+<animate attributeName="x" values="104;104;579.2;579.2;104;104" keyTimes="0;0.6717;0.7667;0.94;0.9867;1" dur="15s" repeatCount="indefinite"/>
+<animate attributeName="fill-opacity" values="1;0.15;1" dur="1s" repeatCount="indefinite"/></rect></g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b9bb4">
+<circle cx="724" cy="250" r="4" fill="#2dd4bf"><animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle>
+<circle cx="724" cy="250" r="4" fill="#2dd4bf"/>
+<text x="737" y="254">learning in public</text></g>
+</svg>
